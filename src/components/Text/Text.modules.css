@@ -1,0 +1,43 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 100px 120px 100px 120px;
+    text-align: center;
+    color: #11364F;
+}
+
+.text span {
+    color: #E74624;
+}
+
+.text h1 {
+    font-size: 44px;
+}
+
+.text p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 500px) {
+    .text{
+        max-width: 375px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .text h1 {
+        max-width: 340px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .text p {
+        max-width: 310px;
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 50px;
+    }
+}
